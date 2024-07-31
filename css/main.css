@@ -1,0 +1,208 @@
+/* *{
+    background-color: 001A1A ;
+    font-size: 20px;
+    color:rgb(59, 103, 51);
+} */
+
+/* @media (min-width:412) {
+    
+    .container{
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+        border: solid 1px red;
+    }
+    
+    img.content{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        height: 250px;
+        width: 350px;
+        border: none;
+        border-radius: 20px;
+    }
+    
+    header{
+        display: flex;
+        justify-content:space-evenly;
+    }
+    
+    /* Logo section */
+    /* .logo {
+        border-radius: 15px;
+        width: 25%;
+    }
+    
+    .nav__links {
+        display: none;
+    }
+    
+    .forms{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    
+    }
+    .forms a{
+        text-decoration: none;
+        margin: 5px;
+    }
+    
+    button{
+        border-color: black;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    
+    
+    .services img{
+        display: flex;
+        flex-direction: column;
+        background-color: aquamarine;
+        height: 150px;
+        width: 250px;
+        border: none;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+
+} */ 
+
+
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+/* making responsive */
+
+/* For only the devices without touch screen i.e. can be hovered. */
+/* @media (hover:none)   
+{
+
+    @media (max-width: 500px )
+    {
+        
+       
+    
+    }
+
+}
+     */
+
+
+    
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+
+/* NAVIGATION SECTION */
+
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 20px;
+        /* padding: 5px; */
+        margin-bottom: 10px;
+        /* border:1px solid red; */
+    }
+
+    header{
+        display: flex;
+    }
+
+    /* Logo section */
+    .logo {
+        display: flex;
+        border-radius: 15px;
+        height: 100px;
+        width: 100px;
+        cursor: pointer;
+        transition: all 350ms ease-out 100ms;
+    }
+
+    .logo:hover{
+        padding-left:5px;;
+    }
+
+    /* Navigation Section */
+    .nav__links {
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+
+    /* .nav__links li{
+        padding: 10px;
+    } */
+
+    .nav__links li a{
+        color: rgb(59, 103, 51);
+        transition: all 350ms ease-out 100ms;
+        text-decoration: none;
+    }
+
+    .nav__links li a:hover{
+        padding: 15px;
+        color: white;
+    }
+
+    /* Sign Up and Login Section*/
+
+    .forms{
+        display: flex;
+        justify-content: center;
+    }
+
+    .forms a{
+        color: rgb(59, 103, 51);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-decoration: none;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        transition: all 350ms ease-out 100ms;
+    }
+
+    .forms a:hover{
+        padding: 15px;;
+        color: white;
+    }
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+
+/* BODY SECTION */
+
+.content_img{
+    width: 80%;
+    height: auto;
+    border-radius: 50px;
+}
+
+
+.hiking,.products,.about{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border:1px solid red;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-size: 80%;
+    color: white;
+    
+}
+
+
+
