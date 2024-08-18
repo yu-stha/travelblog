@@ -1,0 +1,89 @@
+/* NAVIGATION SECTION */
+
+
+
+.navigation{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: xx-large;
+    /* border:1px solid red; */
+}
+
+
+header{
+    display: flex;
+}
+
+/* Logo section */
+.logo {
+    display: flex;
+    border-radius: 25%;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 350ms ease-out 100ms;
+}
+
+.logo:hover{
+    padding-left:5px;;
+}
+
+/* Navigation Section */
+.nav__links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+/* .nav__links li{
+    padding: 10px;
+} */
+
+.nav__links li a{
+    color: white;
+    font-size: x-large;
+    transition: all 350ms ease-out 100ms;
+    text-decoration: none;
+}
+
+.nav__links li a:hover{
+    padding: 15px;
+    color: rgb(230, 71, 71);
+}
+
+/* Sign Up and Login Section*/
+
+.forms{
+    display: flex;
+    justify-content: center;
+}
+
+.forms a{
+    color:white;
+    display: flex;
+    font-size: x-large;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 350ms ease-out 100ms;
+}
+
+.forms img{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.forms a:hover{
+    padding: 15px;;
+    color: rgb(230, 71, 71) ;
+}
+
